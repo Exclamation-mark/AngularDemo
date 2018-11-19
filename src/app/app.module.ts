@@ -9,10 +9,20 @@ import { SearchComponent } from './search/search.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProductComponent } from './product/product.component';
 import { StarsComponent } from './stars/stars.component';
+import { HomeComponent } from './home/home.component';
+import { Code404Component } from './code404/code404.component';
 
 @NgModule({
   declarations: [/*声明模块中有什么东西  只能声明 组件  指令 管道*/
-    AppComponent, NavbarComponent, FooterComponent, SearchComponent, CarouselComponent, ProductComponent, StarsComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    SearchComponent,
+    CarouselComponent,
+    ProductComponent,
+    StarsComponent,
+    HomeComponent,
+    Code404Component
   ],
   imports: [/*声明该模块所依赖的模块*/
     BrowserModule,

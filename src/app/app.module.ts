@@ -11,6 +11,7 @@ import { ProductComponent } from './product/product.component';
 import { StarsComponent } from './stars/stars.component';
 import { HomeComponent } from './home/home.component';
 import { Code404Component } from './code404/code404.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [/*声明模块中有什么东西  只能声明 组件  指令 管道*/
